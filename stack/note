@@ -1,0 +1,22 @@
+---> stack is the backbone of the data structure in python
+---> stack it is LIFO(Last In First Out)
+---> we can impliment stack using python build in data structure List aslo modules
+---> eg:undo operations that we doing
+            
+            1.List---> we have list methods 
+                  list1.append() [for adding element in the end list]
+                  list1.pop()    [ for removing the last element from the list ]
+
+            2.using modules
+                i) import collections
+                        stack = collections.deque()
+                        stack.append()
+                        stack.pop() 
+                ii)import Queue
+                        stack = Queue.Lifoqueue
+                        stack.put()
+                        stack.get()
+                        <!-- we can set the limit for adding elements to the stack -->
+                              <!-- stack.append (10,timeout=1) -->
+
+            
