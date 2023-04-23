@@ -1,0 +1,30 @@
+              Queue
+         =============
+---> Queue is a linear Datasture 
+---> Element are Inserted from one side and removed from
+     another side
+---> Queue Will be open at both ends
+---> The end where elements inserted is called Back/Rear/Tail
+---> The end where the elements are removed are called Front/Head
+---> Queue follows FIFO or LILO
+eg: printing multiple documents
+---> There are mainly two operations in QUEUE
+            i) Enqueue:-
+                    The process of adding elements to the queue
+            ii) Dequeue:-
+                    The process of removing elements from queue
+            --------------------------------------------------------
+            Other than that we have,
+            i)  isFull
+            ii) isEmpty
+            iii) Not Queue
+---> we can impliment Queue using List and Class Modules
+        List:-
+            i) Oueue.append(element)
+               Queue.pop(0)
+
+            ii) Queue.insert(0,element)
+                Queue.pop()
+        Class modules:-
+            
+
