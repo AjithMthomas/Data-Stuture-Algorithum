@@ -1,4 +1,4 @@
 a=[1,2,4,6]
-b=a.sort()
-b.reverse()
+a.sort()
+b = a[::-1]
 print(b)
