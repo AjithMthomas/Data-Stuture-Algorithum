@@ -1,16 +1,16 @@
-              Queue
-         =============
----> Queue is a linear Datasture 
----> Element are Inserted from one side and removed from
-     another side
----> Queue Will be open at both ends
----> The end where elements inserted is called Back/Rear/Tail
----> The end where the elements are removed are called Front/Head
----> Queue follows FIFO or LILO
-eg: printing multiple documents
----> There are mainly two operations in QUEUE
-            i) Enqueue:-
-                    The process of adding elements to the queue
+                                                                 Queue
+                                                             =============
+---> Queue is a linear Datasture                                                 class Queue:-
+---> Element are Inserted from one side and removed from                                inport queue
+     another side                                                                       queue = queue.QUEUE()
+---> Queue Will be open at both ends                                                    queue.put(element)
+---> The end where elements inserted is called Back/Rear/Tail                           queue.get()
+---> The end where the elements are removed are called Front/Head                   note:- 
+---> Queue follows FIFO or LILO                                                          if there is no space to add element or 
+eg: printing multiple documents                                                          there is no elements to remove it will wait
+---> There are mainly two operations in QUEUE                                            untill requerments satisfy.we can set a 
+            i) Enqueue:-                                                                 timeout to stop the wail 
+                    The process of adding elements to the queue                          eg:queue.put(element,timeout=1)
             ii) Dequeue:-
                     The process of removing elements from queue
             --------------------------------------------------------
@@ -26,5 +26,14 @@ eg: printing multiple documents
             ii) Queue.insert(0,element)
                 Queue.pop()
         Class modules:-
+                class collection:-
+                        i)import collections
+                          queue = collections.deque()
+                        here we have 2 options to add and remove
+                             i)queue.append(element)
+                               queue.popleft()
+                             ii)queue.appendleft(element)
+                                queue.pop()
+                
             
 
