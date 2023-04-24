@@ -22,6 +22,9 @@ class LinkedList:
             while n.ref is not None:
                 n =n.ref 
             n.ref=newNode
+            
+
+            
     def add_Before_node(self,data,x):
         if self.head is None:
             print('empy LINKED LIST')
