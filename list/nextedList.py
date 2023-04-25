@@ -5,3 +5,4 @@ print(List1[0][0])
 
 for i in range(len(List1[0])):
     print(List1[0][i])
+
