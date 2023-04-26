@@ -1,5 +1,6 @@
 a=[4,80,9,9,4,4,9,9,4,9]
-a = list(set(a))
-
-print(a)
-        
+b = []
+for i  in a:
+    if i  not in b:
+        b.append(i) 
+print(b)
