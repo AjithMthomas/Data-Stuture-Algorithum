@@ -1,5 +1,4 @@
 import queue
-
 queue1 = queue.Queue()
 queue1.put(10)
 queue1.put(20)
