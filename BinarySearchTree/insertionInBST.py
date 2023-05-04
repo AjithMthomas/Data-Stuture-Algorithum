@@ -7,6 +7,8 @@ class BST:
         if self.key is None:
             self.key = data
             return
+        if self.key== data:
+            return
         if self.key > data:
              if self.lchild:
                  self.lchild.insertion(data)
@@ -17,3 +19,8 @@ class BST:
                 self.rchild.insertion(data)
             else:
                 self.rchild = BST(data)
+root=BST(None)
+list1=[10,93,9,33,9,3]
+for i in list1:
+    root.insertion(i)
+
