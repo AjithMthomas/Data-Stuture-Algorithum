@@ -44,6 +44,12 @@ class BST:
             current = current.lchild
         print('current',current.key)
 
+    def min(self):
+        cur = self
+        if cur.lchild:
+            return self.lchild.min()
+        else:
+            return cur.key
 
         
 
@@ -59,5 +65,5 @@ print('inorder')
 root.postOrder()
 print('postOrder')
 root.min_node()
-
+print(root.min())
 
