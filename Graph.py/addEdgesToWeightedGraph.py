@@ -37,5 +37,5 @@ add_node("a")
 add_node("b")
 add_node("c")
 add_edge("a",'b',7)
-print_graph(graph)
+print(graph)
 
