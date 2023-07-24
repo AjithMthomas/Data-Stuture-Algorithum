@@ -12,8 +12,8 @@ def add_edge(v,v2,cost):
     elif v2 not in graph:
         print(f'{v2} not in graph')
     else:
-        list1 = [v,cost]
-        list2 = [v2,cost]
+        list1 = [v2,cost]
+        list2 = [v,cost]
         graph[v].append(list1)
         graph[v2].append(list2)
         
@@ -53,6 +53,6 @@ print()
 add_edge('a','c',4)
 add_edge('b','b',5)
 add_edge('b','c',3)
-
+delete_edge('a','c',4)
 
 print(graph)

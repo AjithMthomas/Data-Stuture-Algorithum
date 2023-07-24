@@ -6,3 +6,4 @@ print(newlist)
 list2=[5,10,20]
 new=[i for i in list2 if i%2==0] 
 print(new)
+
